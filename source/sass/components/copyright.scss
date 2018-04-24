@@ -1,0 +1,22 @@
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.copyright__title {
+  font-family: Arial;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: $color-tundora;
+}
+
+.copyright__icon {
+  width: 32px;
+  height: 37px;
+  background-image: url(../img/htmlacademy.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

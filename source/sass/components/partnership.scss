@@ -1,0 +1,21 @@
+.partnership {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 28px 20px;
+}
+
+.partnership__invite {
+  margin-right: 18px;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: $color-cod-gray;
+  text-transform: uppercase;
+}
+
+.partnership__adsress {
+  font-family: Arial;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  color: $color-tundora;
+}

@@ -1,0 +1,24 @@
+.main-btn {
+  width: 100%;
+  height: 40px;
+  background-color: $color-apple;
+  cursor: pointer;
+  &.main-btn--bg {
+    background-color: $color-concrete;
+  }
+}
+
+.main-btn__text {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  text-align: center;
+  color: $color-white;
+  text-transform: uppercase;
+  &.main-btn__text--font-up {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  &.main-btn__text--color {
+    color: $color-tundora;
+  }
+}

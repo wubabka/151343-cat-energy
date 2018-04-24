@@ -1,0 +1,32 @@
+.page-header {
+  width: calc(100% + 40px);
+  margin-left: -20px;
+  padding: 0 20px;
+  border-bottom: 1px solid $color-silver;
+}
+
+.page-header__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+}
+
+.page-header__logo {
+  width: 190px;
+  height: 40px;
+  background-image: url(../img/logo-mobile.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.page-header__burger {
+  width: 25px;
+  height: 20px;
+  background-image: url(../img/icon-mobile-menu.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
