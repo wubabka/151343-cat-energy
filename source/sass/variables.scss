@@ -4,3 +4,10 @@ $color-cod-gray: #111111;
 $color-tundora: #444444;
 $color-concrete: #F2F2F2;
 $color-silver: #CDCDCD;
+@mixin fullWidth($width, $marginLeft, $padding) {
+  width: $width;
+  margin-left: $marginLeft;
+  padding: 0 $padding;
+}
+
+@media screen and (min-width: 768px) {}

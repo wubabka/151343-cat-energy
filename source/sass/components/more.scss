@@ -1,7 +1,7 @@
 .more {
-  width: calc(100% + 40px);
-  margin-left: -20px;
-  padding: 27px 20px 25px 20px;
+  @include fullWidth(calc(100% + 40px), -20px, 20px);
+  padding-top: 27px;
+  padding-bottom: 25px;
   border-top: 1px solid $color-silver;
 }
 

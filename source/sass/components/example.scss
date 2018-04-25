@@ -1,6 +1,5 @@
 .example {
-  width: calc(100% + 40px);
-  margin-left: -20px;
+  @include fullWidth(calc(100% + 40px), -20px, 0);
 }
 
 .example__wrapper {

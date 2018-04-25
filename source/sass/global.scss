@@ -96,3 +96,9 @@ button {
 .index-about--margin {
   margin-bottom: 45px;
 }
+
+@media screen and (min-width: 768px) {
+  .max-container {
+    margin: 0 30px;
+  }
+}
