@@ -1,7 +1,5 @@
-.about {}
-
-.about__wrapper {}
-
+// .about {}
+// .about__wrapper {}
 .about__title {
   margin-bottom: 34px;
 }
@@ -21,6 +19,7 @@
   background-repeat: no-repeat;
   background-position: center;
   flex-shrink: 0;
+
   &::before {
     z-index: -1;
     content: "";
@@ -34,24 +33,24 @@
 
 .about__card__text {
   margin-left: 20px;
-  font-family: Arial;
+  font-family: "Arial", "Helvetica", sans-serif;
   font-size: 1.75rem;
   line-height: 2.25rem;
   color: $color-tundora;
 }
 
 .about__card__icon--leaf {
-  background-image: url(../img/advantage-leaf@1x.png);
+  background-image: url("../img/advantage-leaf@1x.png");
 }
 
 .about__card__icon--powder {
-  background-image: url(../img/advantage-powder@1x.png);
+  background-image: url("../img/advantage-powder@1x.png");
 }
 
 .about__card__icon--dining {
-  background-image: url(../img/advantage-dining@1x.png);
+  background-image: url("../img/advantage-dining@1x.png");
 }
 
 .about__card__icon--clock {
-  background-image: url(../img/advantage-clock@1x.png);
+  background-image: url("../img/advantage-clock@1x.png");
 }

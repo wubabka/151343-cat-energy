@@ -7,7 +7,7 @@
   height: 25px;
   margin: 39px auto;
   margin-bottom: 30px;
-  background-image: url(../img/logo-footer.svg);
+  background-image: url("../img/logo-footer.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -31,15 +31,15 @@
 }
 
 .social__icon--vk {
-  background-image: url(../img/icon-vk-mobile.svg);
+  background-image: url("../img/icon-vk-mobile.svg");
 }
 
 .social__icon--insta {
-  background-image: url(../img/icon-insta-mobile.svg);
+  background-image: url("../img/icon-insta-mobile.svg");
   margin: 0 32px;
   margin-top: 1px;
 }
 
 .social__icon--fb {
-  background-image: url(../img/icon-fb-mobile.svg);
+  background-image: url("../img/icon-fb-mobile.svg");
 }
