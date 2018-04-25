@@ -1,12 +1,11 @@
 .map {
   position: relative;
-  // width: calc(100% + 40px);
   height: 360px;
-  // margin-left: -20px;
-  background-image: url(../img/bg-map-mobile@1x.png);
+  background-image: url("../img/bg-map-mobile@1x.png");
   background-size: cover;
   background-position-y: bottom;
   background-repeat: no-repeat;
+
   &::before {
     content: "";
     position: absolute;
@@ -15,7 +14,7 @@
     transform: translate(-50%, -70%);
     width: 58px;
     height: 58px;
-    background-image: url(../img/map-pin.png);
+    background-image: url("../img/map-pin.png");
     background-size: contain;
     background-repeat: no-repeat;
   }

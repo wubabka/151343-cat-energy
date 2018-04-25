@@ -1,13 +1,11 @@
 .catalog-other {
-  width: calc(100% + 40px);
-  margin-left: -20px;
-  padding: 27px 20px 0 20px;
+  @include fullWidth(calc(100% + 40px), -20px, 20px);
+  padding-top: 27px;
   border-top: 1px solid $color-silver;
 }
 
 .catalog-other__title {
-  margin-bottom: 35px;
-  // &::before {
+  margin-bottom: 35px; // &::before {
   //   content: "";
   //   position: absolute;
   //   top: 50%;
@@ -41,14 +39,13 @@
 
 .other-product__field,
 .other-product__value {
-  font-family: Arial;
+  font-family: "Arial", "Helvetica", sans-serif;
   font-size: 1.75rem;
   line-height: 1.75rem;
   color: $color-tundora;
 }
 
-.other-product__value {}
-
+// .other-product__value {}
 .other-product:last-child {
   border-bottom: 1px solid $color-silver;
 }

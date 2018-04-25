@@ -1,4 +1,4 @@
-.category-card {}
+// .category-card {}
 
 .category-card__wrapper {
   background-color: $color-concrete;
@@ -23,6 +23,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+
   &::before {
     z-index: -1;
     content: "";
@@ -46,7 +47,7 @@
 }
 
 .category-card__about {
-  font-family: Arial;
+  font-family: "Arial", "Helvetica", sans-serif;
   font-size: 1.75rem;
   line-height: 2.25rem;
   color: $color-tundora;
@@ -60,7 +61,7 @@
   background-color: $color-tundora;
 }
 
-.category-card__footer {}
+// .category-card__footer {}
 
 .category-card__link {
   position: relative;
@@ -69,6 +70,7 @@
   color: $color-cod-gray;
   text-decoration: none;
   text-transform: uppercase;
+
   &::before {
     content: "";
     position: absolute;
@@ -76,16 +78,16 @@
     right: -35px;
     width: 24px;
     height: 11px;
-    background-image: url(../img/icon-right-arrow-long.svg);
+    background-image: url("../img/icon-right-arrow-long.svg");
     background-size: contain;
     background-repeat: no-repeat;
   }
 }
 
 .category-card__icon--slim {
-  background-image: url(../img/icon-cat-slim.svg);
+  background-image: url("../img/icon-cat-slim.svg");
 }
 
 .category-card__icon--pro {
-  background-image: url(../img/icon-cat-pro.svg);
+  background-image: url("../img/icon-cat-pro.svg");
 }

@@ -20,6 +20,17 @@
 
         </div>
       </div>
+      <div class="page-header__menu">
+        <div class="page-header__menu-item">
+          Главная
+        </div>
+        <div class="page-header__menu-item">
+          Каталог продукции
+        </div>
+        <div class="page-header__menu-item clear">
+          Подбор программы
+        </div>
+      </div>
     </header>
 
     <main>
@@ -39,7 +50,7 @@
         </div>
       </div>
 
-      <button class="main-btn index-btn--margin">
+      <button class="main-btn index-btn--margin main-banner__btn">
         <span class="main-btn__text">
           Подобрать программу
         </span>
@@ -224,6 +235,18 @@
       </div>
     </footer>
   </div>
+
+  <script>
+    function classToggle() {
+      burger.classList.toggle('active');
+      menu.classList.toggle('active');
+    }
+
+    var burger = document.querySelector('.page-header__burger');
+    var menu = document.querySelector('.page-header__menu');
+
+    burger.addEventListener('click', classToggle);
+  </script>
 
 </body>
 

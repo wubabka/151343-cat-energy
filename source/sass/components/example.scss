@@ -1,6 +1,5 @@
 .example {
-  width: calc(100% + 40px);
-  margin-left: -20px;
+  @include fullWidth(calc(100% + 40px), -20px, 0);
 }
 
 .example__wrapper {
@@ -16,7 +15,7 @@
 .example__text {
   margin-bottom: 25px;
   padding-right: 5px;
-  font-family: Arial;
+  font-family: "Arial", "Helvetica", sans-serif;
   font-size: 1.75rem;
   line-height: 2.25rem;
   color: $color-tundora;
@@ -49,7 +48,7 @@
 .example__subinfo {
   position: absolute;
   bottom: -16px;
-  font-family: Arial;
+  font-family: "Arial", "Helvetica", sans-serif;
   font-size: 1.5rem;
   line-height: 1.5rem;
   color: $color-tundora;

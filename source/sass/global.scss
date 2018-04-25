@@ -7,7 +7,7 @@
 
 html,
 body {
-  font-family: Oswald-Regular;
+  font-family: "Oswald-Regular", sans-serif;
   font-size: 8px;
   width: 100%;
   margin: 0 auto;
@@ -30,12 +30,12 @@ input::-webkit-contacts-auto-fill-button {
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
+  // -webkit-appearance: none;
   margin: 0;
 }
 
-input[type=number] {
-  -moz-appearance: textfield;
+input[type="number"] {
+  // -moz-appearance: textfield;
 }
 
 textarea {
@@ -74,6 +74,7 @@ button {
   font-size: 3rem;
   line-height: 3rem;
   color: $color-cod-gray;
+
   &::before {
     content: "";
     position: absolute;
@@ -95,4 +96,10 @@ button {
 
 .index-about--margin {
   margin-bottom: 45px;
+}
+
+@media screen and (min-width: 768px) {
+  .max-container {
+    margin: 0 30px;
+  }
 }
